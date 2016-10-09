@@ -1,0 +1,304 @@
+body{
+	font-family:Calibri;
+	margin:0;
+}
+
+p {
+    margin: 1em 0;
+}
+
+header{
+	background-image:url("image/top-back.jpg");
+	height:700px;
+	padding:auto;
+	margin:auto;
+}
+
+.full-width{
+	color:white;
+	width: 88%;
+    margin: auto;
+}
+
+.left-width{
+	width:280px;
+	float:left;
+}
+
+.menu{
+	padding-top:25px;
+    display: none;
+}
+
+.menu .li {
+    display: block;
+    text-align: center;
+}
+
+.logo{
+	padding-top:200px;
+	padding-left:200px;
+}
+
+header p{
+	display:inline-block;
+	font-weight:lighter;
+	font-size:40px;
+}
+
+nav{
+	float:right;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: grey;
+}
+
+nav ul li{
+	display:block;
+    text-align: center;
+}
+
+nav ul li a{
+	padding:4px;
+	text-decoration:none;
+	color:white;
+	font-size:28px;
+}
+
+nav ul li a:last-child{
+	padding-right:20px;
+}
+
+.description-verto{
+	margin:auto;
+	width:70%;
+	text-align:center;
+}
+
+h1{
+	color:#AFCD53;
+	font-size:60px;
+	font-weight:lighter;
+	margin-bottom:2px;
+}
+
+h2{
+	color:#AFCD53;
+	font-size:30px;
+	font-weight:lighter;
+	margin-top:2px;
+}
+
+button{
+	background-color:#AFCD53;
+	padding:12px 32px;
+	color:white;
+	border:none;
+	text-align:center;
+	margin-bottom:20px;
+}
+.contener{
+	width: 90%;
+	margin: auto;
+	padding-bottom:40px;
+	
+}
+
+.statistic{
+	text-align:center;
+}
+
+
+.number{
+	color:#AFCD53;
+	font-size:65px;
+	font-weight:lighter;
+	padding-bottom:2px;
+	margin-bottom:-18px;
+}
+
+.statistic:hover{
+	transform: scale(1.2);
+	-webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+	
+} 
+
+.statistic-text{
+	color:#AFCD53;
+	font-size:20px;
+}
+
+.sustainable-living{
+	width:70%;
+	margin:auto;
+	text-align:center;
+}
+
+.smart-image{
+	display:inline-block;
+	width:33%;
+	text-align:center;
+	background-color: rbga(0,0,0,0);
+}
+
+
+.smart-text{
+	color:#AFCD53;
+}
+
+.sustainable-image{
+	width:65%;
+	margin:auto;
+}
+
+.vesta-black{
+	text-align:center;
+	width:100%;
+	margin-top:100px;
+	margin-bottom:30px;
+}
+
+.home-automation{
+	margin:auto;
+	text-align:center;
+	background-image:url("image/vesta-back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover; 
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  height:700px; 
+  background-color: #777;
+}
+
+.carousel .item p{
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:180px;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  bottom: ;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+@media (max-width: 600px){
+	.carousel {
+		display:none;
+		height:200px; 
+		background-color: #777;
+	}
+}
+
+
+.contact-details{
+	margin-left:100px;
+}
+
+.phone{
+	
+}
+
+
+.post{
+	
+}
+
+.post-text{
+	
+	
+}
+
+.contact{
+
+}
+
+.awards img{
+	padding-top:18px;
+    margin: 0 auto;
+}
+
+h3{
+	color:#AFCD53;
+}
+
+.copyright{
+	text-align:center;
+}
+
+.social-media{
+	display:inline-block;
+	padding-right:10px;
+}
+
+.contact2{
+	display:inline-block;
+}
+
+.adress{
+	display:inline-block;
+	padding-right:20px;
+}
+
+footer{
+	width:90%;
+}
+
+.copyright{
+	font-size:8px;
+}
+
+.menu-mobile-button {
+  display: block;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: block;
+		
+    }
+
+    nav {
+        position: static;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+    }
+
+    nav ul li{
+    	display:inline-block;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    nav ul li a{
+    	font-size:18px;
+    }
+
+  .menu-mobile-button {
+    display: none;
+
+  }
+}
+
+
+
+
+@media (max-width: 600px){
+	.carousel {
+		display:none;
+		height:200px; 
+		background-color: #777;
+	}
+}
