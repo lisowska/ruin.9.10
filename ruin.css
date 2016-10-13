@@ -12,6 +12,8 @@ header{
 	height:700px;
 	padding:auto;
 	margin:auto;
+	background-position:center;
+	background-size:cover;
 }
 
 .full-width{
@@ -36,8 +38,9 @@ header{
 }
 
 .logo{
-	padding-top:200px;
-	padding-left:200px;
+	
+	margin:200px auto;
+	display:block;
 }
 
 header p{
@@ -139,7 +142,7 @@ button{
 
 .smart-image{
 	display:inline-block;
-	width:33%;
+	width:100%;
 	text-align:center;
 	background-color: rbga(0,0,0,0);
 }
@@ -167,7 +170,16 @@ button{
 	background-image:url("image/vesta-back.jpg");
 	background-repeat:no-repeat;
 	background-size:cover; 
+	background-position:center;
+	
 }
+
+.home-automation p{
+	padding-left: 10px;
+padding-right: 10px
+}
+
+
 
 .carousel-caption {
   z-index: 10;
@@ -202,7 +214,9 @@ button{
 
 
 .contact-details{
-	margin-left:100px;
+	padding-left: 50px;
+padding-right: 15px;
+	
 }
 
 .phone{
@@ -250,8 +264,14 @@ h3{
 	padding-right:20px;
 }
 
+.adress p, .contact2 p, .post-text p{
+	margin-top:0;
+}
+
+
 footer{
-	width:90%;
+	width:100%;
+	margin:auto;
 }
 
 .copyright{
@@ -262,7 +282,7 @@ footer{
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .menu {
         display: block;
 		
@@ -290,6 +310,11 @@ footer{
     display: none;
 
   }
+}
+@media (max-width: 768px) {
+	 nav {
+		 background-color: #AFCD53;
+	 }
 }
 
 
