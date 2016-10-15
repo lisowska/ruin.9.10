@@ -1,0 +1,25 @@
+.container{
+    position:relative;
+    height:300px;
+    overflow:hidden;
+}
+.shownElement{
+    height:300px;
+    background-color:red;
+}
+.onhoover{
+    position:absolute;
+    height:300px;
+    background-color:green;
+}
+
+@keyframes move {
+   from { transform: translateY(0px); }
+   to { transform: translateY(-300px); }
+}
+
+.container:hover .onhoover{
+    animation: move 3s ease;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
